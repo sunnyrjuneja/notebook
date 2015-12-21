@@ -13,9 +13,9 @@ class NewPost
   attr_reader :template_path, :posts_path, :id
 
   def initialize(title: 'New Post', date: today())
-    @title = title
-    @date = date
-    @template_path = File.join '_layouts', 'new_post.md.erb'
+    @title = title.strip
+    @date = date.strip
+    @template_path = File.join '_layouts', 'new_post.md'
     @posts_path = File.join '_posts'
     @id = SecureRandom.uuid
   end
