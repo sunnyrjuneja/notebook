@@ -1,0 +1,62 @@
+#!/usr/bin/env ruby
+require 'erb'
+require 'date'
+require 'securerandom'
+
+class NewPost
+  include ERB::Util
+
+  attr_accessor :title, :date
+  attr_reader :template_path, :posts_path, :id
+
+  def initialize(title: 'New Post', date: today())
+    @title = title
+    @date = date
+    @template_path = File.join '_layouts', 'new_post.md.erb'
+    @posts_path = File.join '_posts'
+    @id = SecureRandom.uuid
+  end
+
+  def slug
+    title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+  end
+
+  def title_to_filename
+    date + '-' + slug + '.md'
+  end
+
+  def destination
+    File.join posts_path, title_to_filename
+  end
+
+  def save destination = destination()
+    File.open destination, File::WRONLY|File::CREAT|File::EXCL do |f|
+      f.write(render)
+    end
+    "Created #{destination}"
+  end
+
+  private
+
+  def today
+    Date.today.strftime "%Y-%_m-%d"
+  end
+
+  def template
+    File.read template_path
+  end
+
+  def render
+    ERB.new(template).result(binding)
+  end
+end
+
+title = ARGV[0]
+
+if title
+  post = NewPost.new(title: title)
+else
+  post = NewPost.new
+end
+
+post.save
