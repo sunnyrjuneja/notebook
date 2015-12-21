@@ -3,6 +3,9 @@ require 'erb'
 require 'date'
 require 'securerandom'
 
+# Usage:
+# bin/new_post "Title" "Date String (format mm-dd-yyyy)"
+
 class NewPost
   include ERB::Util
 
@@ -33,7 +36,7 @@ class NewPost
     File.open destination, File::WRONLY|File::CREAT|File::EXCL do |f|
       f.write(render)
     end
-    "Created #{destination}"
+    puts "Created #{destination}"
   end
 
   private
@@ -51,12 +54,7 @@ class NewPost
   end
 end
 
-title = ARGV[0]
+options = { title: ARGV[0], date: ARGV[1] }.delete_if { |_, v| v.nil? }
 
-if title
-  post = NewPost.new(title: title)
-else
-  post = NewPost.new
-end
-
+post = NewPost.new(options)
 post.save
