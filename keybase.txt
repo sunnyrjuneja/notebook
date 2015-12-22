@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/wasd
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.sunnyrjuneja.com
+  * I am wasd (https://keybase.io/wasd) on keybase.
+  * I have a public key with fingerprint 0FC8 16B4 4CC8 EBDF 64A1  1A5A 26EC A78F 9C32 1A3F
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101dd4502decf5e73cb1bd060e580294838a273c3cee87ca73e3d79cbb301930c080a",
+            "fingerprint": "0fc816b44cc8ebdf64a11a5a26eca78f9c321a3f",
+            "host": "keybase.io",
+            "key_id": "26eca78f9c321a3f",
+            "kid": "0101dd4502decf5e73cb1bd060e580294838a273c3cee87ca73e3d79cbb301930c080a",
+            "uid": "2ec21195be2d5d944c92d52dc3255319",
+            "username": "wasd"
+        },
+        "service": {
+            "hostname": "www.sunnyrjuneja.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1450813427,
+    "expire_in": 157680000,
+    "prev": "88d4ffa4531a4503131bf65c1802b3961245f275f186b70b2b878b79bc9952e6",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.49
+Comment: https://keybase.io/crypto
+
+yMIoAnicrVJZSFRRGB61dSppeWnFuES4Jffc9dwpCHsIrARbKROme5arV517x7kz
+2uSSIEKYIGa0l4VtVBRmJeNDmWULZkVBiVDBPFQUrUIbkp1r9dZj5+Es//m+7//+
+n//mlCSPN+FdbmMsrX7B9IS+6wcjng3RU0OVHLJJlPNVciV09KClhDphf4lJOB/H
+Ax4QIsm8QCg2ZKqKGAFEeIWnMuQFTYIi1AUWFTGlUMW6KlKRqBpGSOSBJvKYh7zO
+ZXKGaRXSUDBkWmFX1sAQKEiSMIYUEUORdAB0WRcUyiSgoWFRALpoMGKR7bgMZg7p
+Ds0ybRZjD/+ovX/g/7PvyO88FAsAaDKiApGJxnxr7CIQllaWRaC5QIeGLD1AGbpC
+dwhXncmxSLmJqdtUt4q/vxUVWU7EsqKh4ohFi/UsbAcYPxiywza2SxmiKBwOOj5X
+IRwNjlIo8v8R8yPTIqyXjFFOQ45pW5wPMCQOm646YCVDIEqCmsnRrUEzRP2mi5BV
+BfJsuXloOZOEkEiGoUvMPdt4EYgAGYqMAesOEjUFCJJsCKpsAKgglUcCgipEqoaw
+pskCVTi3vDLL5nyQ2dQLmaRjFlp6OBKiXHVPd8EYT4LXM25sojtjHu/EqX8n7/ab
+8T8zvt0fGfTu+9o353D6zbNtPQaZpvRuGnw+v+PBseLXcjCxceXw+qarR1NmjtTN
+g0PZ19/2m51DCyfF/M8Otadt6w8s+97wovVxYLh5smf3tfw7ZWvvHqksII2v1vro
+vStb/PGiTRf7vuAZrztyc/Jaqw/1tDTVx1sDO2KLatHe1QP577s6nhzY+ehCS1cU
+Js19aUU/e1NTy5NrTtdWrVieVKY8GndeKImv2r+m2N5zJpr/9Fb659ylVdmfZje3
+T+jmTiSsIynH21Lz2iqSZ58Mbpy1OHlXzrkPVX0bB15k3LAaBpD0pvQnjF3eHK/7
+uMTTfEkY7n3INfzYnlqYONh08F1N5y+iN0ke
+=zmS6
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/wasd
+
+==================================================================
