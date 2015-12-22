@@ -18,6 +18,8 @@ github_username:  sunnyrjuneja
 # Build settings
 markdown: kramdown
 exclude: ['s3_website.yml', 'Gemfile', 'Gemfile.lock', 'bin']
+gems:
+  - jekyll-sitemap
 defaults:
   -
     scope:
