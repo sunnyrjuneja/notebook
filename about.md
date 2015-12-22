@@ -28,7 +28,7 @@ Oakland, RailsBridge and Youth & Government.
 
 Here's some other places you can find me on the web:
 
-- [Twitter: sunnyrjuneja](https://twitter.com/SunnyRJuneja)
+- [Twitter: sunnyrjuneja](https://twitter.com/sunnyrjuneja)
 - [GitHub: sunnyrjuneja](https://github.com/sunnyrjuneja/)
 - [Instagram: sunnyrjuneja](https://www.instagram.com/sunnyrjuneja/)
 - [Stackoverflow: sunnyrjuneja](http://stackoverflow.com/users/807103/sunnyrjuneja)
