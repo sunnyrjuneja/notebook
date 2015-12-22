@@ -4,12 +4,34 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hi, I'm Sunny Juneja. Wonderful to meet you. I want to make the world a better
+place.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+I like
+creating,
+learning,
+helping others,
+politics,
+history,
+urban planning,
+film,
+and coffee.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Professionally, I'm a freelance product manager and software engineer with
+[Digital Strategies][ds]. My favorite programming languages are Ruby, Javascript
+and Java.
+
+[ds]: https://www.dstrategies.org/
+
+When I'm not working, I volunteer with organizations like Code for America, Open
+Oakland, RailsBridge and Youth & Government.
+
+Here's some other places you can find me on the web:
+
+- [Twitter: sunnyrjuneja](https://twitter.com/SunnyRJuneja)
+- [GitHub: sunnyrjuneja](https://github.com/sunnyrjuneja/)
+- [Instagram: sunnyrjuneja](https://www.instagram.com/sunnyrjuneja/)
+- [Stackoverflow: sunnyrjuneja](http://stackoverflow.com/users/807103/sunnyrjuneja)
+- [Email: jr.sunny@gmail.com](mailto:jr.sunny@gmail.com)
+
+I encourage you to reach out.
