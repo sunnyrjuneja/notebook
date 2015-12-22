@@ -15,9 +15,12 @@ url: "https://www.sunnyrjuneja.com" # the base hostname & protocol for your site
 twitter_username: sunnyrjuneja
 github_username:  sunnyrjuneja
 
-# Build settings
 markdown: kramdown
+
 exclude: ['s3_website.yml', 'Gemfile', 'Gemfile.lock', 'bin']
+
+permalink: ":categories/:title/"
+
 gems:
   - jekyll-sitemap
 defaults:
