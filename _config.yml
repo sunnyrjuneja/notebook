@@ -21,7 +21,7 @@ disqus_url: "//sunnyrjuneja.disqus.com/embed.js"
 markdown: kramdown
 
 include: ['_pages', '_static', '_web']
-exclude: ['s3_website.yml', 'Gemfile', 'Gemfile.lock', 'bin']
+exclude: ['README.md', 's3_website.yml', 'Gemfile', 'Gemfile.lock', 'bin']
 
 permalink: ":categories/:title/"
 
