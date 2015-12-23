@@ -8,21 +8,26 @@
 # Site settings
 title: Sunny R. Juneja
 email: jr.sunny@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   Hi, I'm Sunny. I like writing about startups and technology.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.sunnyrjuneja.com" # the base hostname & protocol for your site
+url: "https://www.sunnyrjuneja.com"
+# Custom Variables
 twitter_username: sunnyrjuneja
 github_username:  sunnyrjuneja
+google_analytics_code: "UA-46625863-1"
+disqus_url: "//sunnyrjuneja.disqus.com/embed.js"
 
 markdown: kramdown
 
+include: ['_pages', '_static', '_web']
 exclude: ['s3_website.yml', 'Gemfile', 'Gemfile.lock', 'bin']
 
 permalink: ":categories/:title/"
 
 gems:
   - jekyll-sitemap
+
 defaults:
   -
     scope:
@@ -33,8 +38,19 @@ defaults:
       comments: true
   -
     scope:
-      path: ""
-      type: "pages"
+      path: "_pages"
     values:
       layout: "page"
       comments: false
+  -
+    scope:
+      path: "_web"
+    values:
+      layout: null
+      permalink: ':basename'
+  -
+    scope:
+      path: "_static"
+    values:
+      layout: null
+      permalink: ':basename'
