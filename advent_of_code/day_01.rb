@@ -26,7 +26,7 @@ f = File.new('day_01.input')
 floor = 0
 basement = nil
 
-f.each_char.each_with_index do |paran, i|
+f.each_char.with_index do |paran, i|
   case paran
   when '('
     floor += 1
