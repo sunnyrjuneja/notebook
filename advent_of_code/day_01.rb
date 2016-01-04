@@ -21,7 +21,7 @@
 # ))) and )())()) both result in floor -3.
 # To what floor do the instructions take Santa?
 
-f = File.new('day_1.input')
+f = File.new('day_01.input')
 
 floor = 0
 basement = nil
