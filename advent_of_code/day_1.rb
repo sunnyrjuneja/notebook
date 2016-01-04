@@ -24,14 +24,17 @@
 f = File.new('day_1.input')
 
 floor = 0
+basement = nil
 
-while paran = f.getc
+f.each_char.each_with_index do |paran, i|
   case paran
   when '('
     floor += 1
   when ')'
     floor -= 1
+    basement = i + 1 if floor == -1 && basement.nil?
   end
 end
 
 puts "Santa is on floor: #{floor}"
+puts "He first went to the basement at position: #{basement}"
