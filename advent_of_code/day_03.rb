@@ -13,7 +13,7 @@
 # ^v^v^v^v^v delivers a bunch of presents to some very lucky children at only 2 houses.
 #
 # --- Part Two ---
-
+#
 # The next year, to speed up the process, Santa creates a robot version of himself, Robo-Santa, to deliver presents with him.
 # 
 # Santa and Robo-Santa start at the same location (delivering two presents to the same starting house), then take turns moving based on instructions from the elf, who is eggnoggedly reading from the same script as the previous year.
@@ -56,7 +56,7 @@ class Santa
   end
 end
 
-class SantaAndRobotSanta
+class RobotSanta < Santa
   attr_accessor :visited, :houses
 
   def initialize
@@ -65,28 +65,11 @@ class SantaAndRobotSanta
     @x2 = 0
     @y2 = 0
     @robot = false
-    @visited  = Hash.new { |k, v| k[v] = {} }
-    @visited[x][y] = true
-    @houses = 1
+    super
   end
 
   def move(direction)
-    case direction
-    when '^'
-      self.y += 1
-    when '>'
-      self.x += 1
-    when 'v'
-      self.y -= 1
-    when '<'
-      self.x -= 1
-    end
-
-    if visited[x][y].nil?
-      visited[x][y] = true
-      self.houses += 1
-    end
-
+    super(direction)
     toggle
   end
 
@@ -117,7 +100,7 @@ end
 
 f = File.new('day_03.input')
 s = Santa.new
-rs = SantaAndRobotSanta.new
+rs = RobotSanta.new
 
 f.each_char do |d|
   s.move(d)
