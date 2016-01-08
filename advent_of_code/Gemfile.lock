@@ -1,0 +1,12 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    maxitest (1.5.5)
+      minitest (>= 5.0.0, < 5.9.0)
+    minitest (5.8.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  maxitest
