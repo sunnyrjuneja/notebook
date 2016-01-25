@@ -75,54 +75,56 @@ manhattan resident vs detriot (comparable climates)
 usa data: economic growth & job creation are stronger in cities, poverty rising faster in suburbs
 higher gas prices, foreclosure rates in suburban
 
+# Part 1: Why Cities Are Good
+
 # Chap1: A County of Countries: Of Highways, Houses and Hedges
-Land development has quadrupled since 1945, 2x the rate of population growth
+land development has quadrupled since 1945, 2x the rate of population growth
 11m americans hold mortgages with greater values than their homes
 
-Big Idea: 
-Our most urgent problems (may they be economic, socioeconomic, public health, environmental problem) are all exacerbated or driven by how we live. Policies at all levels of gov (federal, state, municipal) drive suburbanization.
+big idea: 
+our most urgent problems (may they be economic, socioeconomic, public health, environmental problem) are all exacerbated or driven by how we live. policies at all levels of gov (federal, state, municipal) drive suburbanization.
 
-"City": place that can provide significant ridership for mass transit such as a subway network (30 =< housing units per acre) [an acre is about the size of a football field].
-City <-> Hyperdensity (used interchangably)
+"city": place that can provide significant ridership for mass transit such as a subway network (30 =< housing units per acre) [an acre is about the size of a football field].
+city <-> hyperdensity (used interchangably)
 transit based criteria essential since big cities (vs real) create slightly more compact places where driving is still essential
 book contrasts itself against other urban literature by using transit based density instead of any other density measure
 results in a city which is neither walkable nor drivable
 
 pg 26 pie graph on at densities american live in
 
-Big Idea:
-Suburbanization Driven by a set of political and historical circumstances
+big idea:
+suburbanization driven by a set of political and historical circumstances
 
-1934: FDR new deal policy of National Housing Act of 1934 created the Federal Housing Admistration and Federal Savings and Loan Insurance Coproration to stem the tide of foreclosures resulting from the great depression and to make housing and mortgages more affordable. More people could afford down payments and interest on mortgages and the market for SFhs became much larger.
+1934: fdr new deal policy of national housing act of 1934 created the federal housing admistration and federal savings and loan insurance coproration to stem the tide of foreclosures resulting from the great depression and to make housing and mortgages more affordable. more people could afford down payments and interest on mortgages and the market for sfhs became much larger.
 
-1940s: National City Lines Cartel (General Motors, Firestone and Standard Oil)
+1940s: national city lines cartel (general motors, firestone and standard oil)
 elimination of electric streetcar routes across the country
 
-Post WW2:  Federal Highway Act of 1956 and intense lobbying by NAR further enabled home ownership through expansion of roadways into, out of and between cities resulting in impossible level of suburban development.
+post ww2:  federal highway act of 1956 and intense lobbying by nar further enabled home ownership through expansion of roadways into, out of and between cities resulting in impossible level of suburban development.
 
-1950s-1970s: Recession, racial tension and fear of nuclear war lead to the dispersement of population from cities to suburbs. Cities collected less taxes which lead to smaller municipal budgets, high debt, and increased crime. In general, this became a time of high anti-urban sentiment.
+1950s-1970s: recession, racial tension and fear of nuclear war lead to the dispersement of population from cities to suburbs. cities collected less taxes which lead to smaller municipal budgets, high debt, and increased crime. in general, this became a time of high anti-urban sentiment.
 
-2012 WSJ : Cities are growing faster than their urban counter parts
-2013 MNSBC: Economy slump (temp), inability of young people to afford downpayments (temp), and a preference for places that do not require driving everywhere (perm).
+2012 wsj : cities are growing faster than their urban counter parts
+2013 mnsbc: economy slump (temp), inability of young people to afford downpayments (temp), and a preference for places that do not require driving everywhere (perm).
 
-Required to encourage urbanization (and not suburbanization):
-* Phasing out federal home mortgage interest deduction (MID)
+required to encourage urbanization (and not suburbanization):
+* phasing out federal home mortgage interest deduction (mid)
 * ceasing the backing by fannie mae and freddie mac of larger mortgages
 * removing subsidies for the oil industry
-* reclassifying SUVs and minivans as light trucks
-* Allocating federal transportation dollars by population
+* reclassifying suvs and minivans as light trucks
+* allocating federal transportation dollars by population
 * distributing those dollars fairly across all modes of transportation, rail, mass transit, insead of disporportionately funding highways and runways
-* streamlining the national environmental protection act (NEPA) to reduce the redtape associated with urban development and building large scale infastructure
+* streamlining the national environmental protection act (nepa) to reduce the redtape associated with urban development and building large scale infastructure
 * pricing fuel to reflect negative externalities (pollution and congestion)
 
-pg 40 Bob the Builder analogy
+pg 40 bob the builder analogy
 
-If all seven billion lived at the density of townhouses instead of single-family homes, but nowhere close to the density of big American cities, the entire planet would fit in the state of texas surrounded by nothing but nature and agriculture. visualization on pg 48
+if all seven billion lived at the density of townhouses instead of single-family homes, but nowhere close to the density of big american cities, the entire planet would fit in the state of texas surrounded by nothing but nature and agriculture. visualization on pg 48
 
 pg 44-45 how homes have increased in size but decreased in family size
 housing units out paced population
 
-Humans directly influence 83% of the Earths land area.
+humans directly influence 83% of the earths land area.
 
 # Chap2: Cities, Prosperity, and Globalization
 
@@ -175,4 +177,49 @@ pg 92 annual federal energy subsidies, global oil production
 pg 101 nice drawing
 
 # Chap4: Cities, Health and Joy
+a fear of race, as well as the arms race, drove the public health and saftey concerns that fueled suburbanization
 
+us is an advanced service economy that no longer gerenates the levels of dirty and pollution associated with the industurial city
+
+2003 research by barbara mccann and reid ewing of 200k people of 448 us counties
+* those living in sprawling built enivornments were foudn to be more likely to suffer from obesity than those living in cities. for every 50-point increase in the degree of sprawl, the odds of a county resident obese rose by 10%
+* studies link hypertension and high blood pressure to driving, sitting in traffic jams which can cause stress, muscular pain, and road rage
+* dense cities encourage public healthy because engender a culture of benficial habits (walking & bicyling) and they provide people better access to more healthcare options
+* life exptenancies in america's densest cities (including areas with poor air quality a, are signitificantly longer than in areas thought to be more "natural", studies have shown traffic accidents to be the number one cause of childhood fatalities worldwide, beating hiv, maralia, and other diseases
+* americans who live in cities also spend less time commuting contributing to improved quality of life for recreation, realxation and social itneraction
+* 2011 swedish study associates significantly higher divorce rates with commuting, recent American study foudn an increasing number of couples in long distance marriages because one of them had to relocate for work.
+
+pg 106 commute distance, physical activity and prevalnce of obesity
+
+cities setill have significant health and social problems and only through sound planning and policies can local governments ensure the health and well being of their residents
+obesity, childhood asthma, and diabetes disproportionately affect poor, inner-city areas that are characterized by nearby highways, noxious munical facilities, deteriorating housing condtions, inadequate health education, and limited access to medical care
+
+pg 114 crime in cities
+
+the silver lining is that cities are better equipped to deal with dispartieis than suburbs where the same lack of opportunity can lead to the precipitous decline of entire towns through disinvestment, declining property values, increased crime, physical degradation of housing stock
+
+examples of measures have been effective in soem of the world's poorer nations (Brazil and India) and genreally have a much greater impact in cities where large-scale changes can be implemented at once through centralized reforms rather than piecemeal actions
+
+through a combination of public space improvements, better infrastructure, and the market calibrated increase of developemnt capacity, cities can achieve the kind of hyperdensity that is economically capable of supporting parks, arts venues, and affordable housing in mixed-income buildings
+
+pg 120 one way comute times to work
+
+# Part 2 How to Build Good Cities
+
+# Chap5: Building Hyperdensity and Civic Delight
+
+Factors necessary for building "delightful cities" are great design, responsible preservation, and sound urban planning
+
+urbanists prefer the "low rise, high density" design of cities without skycrapers such as paris and barcelona. they deride places such as tokyo, hong kong, and singapore as being too congested and characterless. however, asiancities are outpacing european capitals not only economically but als oin terms of culutral production, mass transit, environmentalism, raical integration, and other key metrics. its unrealistic and irresponsible for any urbanist to embrace European capitals as models for future development wne they are moang the most segregated urban centers on earth and have increasingly unstable finances character by debt-driven grands projects.
+
+low rise, high density typically have lower level of light and air and are more susceptible to epidemics, fire and squalor since in order to reach the high density, they can not have more distance between living places and have wider, more light-filled structures
+
+there is a correlation between those european cities that have allowed skyscrapers and those that have successful, urban-led economies
+
+pg 132 skyscrapers and gpd in europe
+
+pg 134 loss of density across metropolitan regions
+
+pg 138 what densities are currently permitted
+
+good planning should be guided by desired objectives rather than prescribed physical outcomes; it should allow for flexible uses,densities and building form in response to change in market conditions, architectural expression, and availaiblity of infrastructure such ass mass transit
