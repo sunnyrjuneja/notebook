@@ -1,0 +1,85 @@
+# Rebind prefix to ctrl + a and make it so ctrl + a twice works for apps that use ctrl + a
+set -g prefix C-a
+bind C-a send-prefix
+
+# unbind old prefix
+unbind C-b
+
+# reduce response time for vim
+set -sg escape-time 1
+
+# change indexes to be zero based
+set -g base-index 1
+setw -g pane-base-index 1
+
+# prefix + r reloads config file
+bind r source-file ~/.tmux.conf \; display "Reloaded!"
+
+# make split more visually recognizable
+bind | split-window -h
+bind - split-window -v
+
+# Rebind to moving panes to vim config
+bind -r h select-pane -L
+bind -r j select-pane -D
+bind -r k select-pane -U
+bind -r l select-pane -R
+
+# cycle windows with prefix + ctrl h/l (-r is repeatable)
+bind -r C-h select-window -t :-
+bind -r C-l select-window -t :+
+
+# no pain, no game
+setw -g mode-mouse off
+
+# resize window using vim keys
+bind -r H resize-pane -L 5
+bind -r J resize-pane -D 5
+bind -r K resize-pane -U 5
+bind -r L resize-pane -R 5
+
+# support 256 colors
+set -g default-terminal "screen-256color"
+
+# set colors
+set -g status-fg white
+set -g status-bg black
+
+setw -g window-status-current-fg white
+setw -g window-status-current-bg red
+setw -g window-status-current-attr bright
+
+set -g pane-border-fg green
+set -g pane-border-bg black
+set -g pane-active-border-fg white
+set -g pane-active-border-bg yellow
+
+set -g message-fg white
+set -g message-bg black
+set -g message-attr bright
+
+# Customize Status Bar
+set -g status-left-length 40
+set -g status-left "#[fg=green]Session: #S Window: #[fg=yellow]#I Pane: #[fg=cyan]#P"
+set -g status-right "#[fg=cyan]%d %b %R"
+set -g status-utf8 on
+set -g status-interval 60
+set -g status-justify centre
+setw -g monitor-activity on
+set -g visual-activity on
+
+# History limit
+set -g history-limit 20000
+
+# so we can use hjkl to move around the buffer
+setw -g mode-keys vi
+
+unbind [
+bind Escape copy-mode
+unbind p
+bind p paste-buffer
+bind -t vi-copy 'v' begin-selection
+bind -t vi-copy 'y' copy-selection
+
+bind C-c run "tmux save-buffer - | xclip -i -sel clipboard"
+bind C-v run "tmux set-buffer \"$(xclip -o -sel clipboard)\"; tmux paste-buffer"
