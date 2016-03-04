@@ -1,0 +1,11 @@
+*.sw*
+*.log
+
+
+# srclib build cache
+.srclib-cache/
+
+# Eclim
+.buildpath
+.project
+workbench.xmi

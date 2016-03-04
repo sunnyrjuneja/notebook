@@ -1,0 +1,12 @@
+[user]
+	name = Sunny Juneja
+	email = jr.sunny@gmail.com
+[core]
+	editor = vim
+	excludesfile = ~/.gitignore
+[alias]
+    co = checkout
+[web]
+	browser = chromium
+[push]
+	default = simple
