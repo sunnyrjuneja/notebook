@@ -25,3 +25,7 @@ install tmux
 
 Add nvidia drivers
 http://askubuntu.com/questions/22118/can-i-install-extra-drivers-via-the-command-prompt/9465#9465
+
+postgres
+http://www.postgresql.org/download/linux/ubuntu/
+https://help.ubuntu.com/lts/serverguide/postgresql.html

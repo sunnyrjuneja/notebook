@@ -12,3 +12,4 @@
     ~/.gitignore: gitignore
     ~/.zshrc: zshrc
     ~/.tmux.conf: tmux
+    ~/.pgpass: pgpass 
