@@ -29,3 +29,6 @@ http://askubuntu.com/questions/22118/can-i-install-extra-drivers-via-the-command
 postgres
 http://www.postgresql.org/download/linux/ubuntu/
 https://help.ubuntu.com/lts/serverguide/postgresql.html
+
+Add github ssh key
+https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
