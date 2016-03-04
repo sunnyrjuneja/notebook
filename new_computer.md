@@ -22,3 +22,6 @@ setup solarized
 https://github.com/Anthony25/gnome-terminal-colors-solarized
 
 install tmux
+
+Add nvidia drivers
+http://askubuntu.com/questions/22118/can-i-install-extra-drivers-via-the-command-prompt/9465#9465
