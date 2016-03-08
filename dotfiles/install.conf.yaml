@@ -10,6 +10,6 @@
     ~/.vim: vim
     ~/.gitconfig: gitconfig
     ~/.gitignore: gitignore
-
-- shell:
-  - [git submodule update --init --recursive, Installing submodules]
+    ~/.zshrc: zshrc
+    ~/.tmux.conf: tmux
+    ~/.pgpass: pgpass 
