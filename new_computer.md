@@ -36,4 +36,7 @@ https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-s
 install nvm / nodejs 
 Latest chrome driver for watir https://github.com/watir/watirbook/blob/master/manuscript/installation/ubuntu.md
 
-install gnome-tweak-tool and swap capslock for ctrl
+done in xkb in dotfiles but swap ctrl and capslock
+replace right shift with escape
+http://unix.stackexchange.com/questions/65507/use-setxkbmap-to-swap-the-left-shift-and-left-control/65600#65600?newreg=723f8aad26fa47dfb89e3789761f049e
+https://askubuntu.com/questions/325272/permanent-xmodmap-in-ubuntu-13-04/347382#347382?newreg=4eb097870a15490ebbe39d78412f9797

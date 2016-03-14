@@ -13,3 +13,4 @@
     ~/.zshrc: zshrc
     ~/.tmux.conf: tmux
     ~/.pgpass: pgpass 
+    ~/.xkb: xkb
