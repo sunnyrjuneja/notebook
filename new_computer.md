@@ -34,3 +34,6 @@ Add github ssh key
 https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
 
 install nvm / nodejs 
+Latest chrome driver for watir https://github.com/watir/watirbook/blob/master/manuscript/installation/ubuntu.md
+
+install gnome-tweak-tool and swap capslock for ctrl
