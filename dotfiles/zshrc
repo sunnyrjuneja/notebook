@@ -89,6 +89,10 @@ export EDITOR=vim
 
 source /usr/local/share/chruby/chruby.sh
 source /usr/local/share/chruby/auto.sh
+chruby ruby-2.3
 
 alias be="bundle exec"
 alias fms="foreman start -f Procfile.dev"
+
+export NVM_DIR="/home/wasd/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
